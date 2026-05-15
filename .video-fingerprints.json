@@ -1,0 +1,33 @@
+{
+  "_purpose": "Forensische Referenz für Watermark- und Steganographie-Spuren in den Demo-Videos. Bei Mirror-/Reupload-Verdacht kann ein verdächtiges Video gegen diese Fingerprints geprüft werden (sichtbares Watermark, eingebettete UID-Stamps, Metadata-Tags, SHA256).",
+  "fingerprints": [
+    {
+      "file": "recordings/2026-05-15-stand.mp4",
+      "recorded": "2026-05-15",
+      "uid": "0297663a-f61c-4add-a2fd-5821523bd486",
+      "sha256_original_pre_watermark": "a2c4d667790366638fc1db30689fa155ef72ee01113fed26d359fbb30245d283",
+      "sha256_watermarked": "09bda744ed95817305d767e7fa69a9cab4150c6c9d3eff449edfce570749b796",
+      "watermark_visible": {
+        "text": "© Voltaris · 2026-05-15",
+        "position": "bottom-right",
+        "alpha_text": 0.35,
+        "alpha_box": 0.24,
+        "font": "Helvetica 14pt"
+      },
+      "watermark_stego_layer": {
+        "stamp": "UID:0297663a-f61c-4add-a2fd-5821523bd486",
+        "positions": ["top-left", "top-right", "bottom-left", "mid-left", "mid-right"],
+        "alpha": 0.043,
+        "font": "Helvetica 9pt",
+        "rationale": "Mehrfache Positionen schützen gegen Cropping — selbst wenn Watermark unten rechts entfernt wird, bleiben mindestens 2-3 UID-Stamps erhalten."
+      },
+      "metadata_tags": {
+        "title": "Voltaris Demo 2026-05-15",
+        "artist": "Bünyamin Ulupinar",
+        "copyright": "© 2026 Bünyamin Ulupinar. All Rights Reserved.",
+        "comment": "UID:0297663a-f61c-4add-a2fd-5821523bd486",
+        "description": "Voltaris iOS PV-Analyse Demo. Mirror, re-upload, redistribution prohibited."
+      }
+    }
+  ]
+}
