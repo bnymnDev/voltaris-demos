@@ -9,7 +9,7 @@
 
 Voltaris ist eine native iOS-App zur Photovoltaik-Planung und -Analyse („PV-Analyse für Elektromeister“). Sie richtet sich an Elektrofachbetriebe und Elektromeister, die PV-Anlagen planen und bewerten. Die App wird mit Swift und CoreML entwickelt. Der Quellcode bleibt privat — dieses Repository dient ausschließlich dazu, Interessenten, Beta-Testern und Partnern den aktuellen Stand visuell zugänglich zu machen.
 
-🇬🇧 [English summary below](#english-summary)
+[English summary below](#english-summary)
 
 ---
 
